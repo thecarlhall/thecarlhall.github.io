@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Keytool on Carlibrated!</title><link>https://thecarlhall.github.io/tags/keytool/</link><description>Recent content in Keytool on Carlibrated!</description><generator>Hugo</generator><language>en</language><managingEditor>carl@halls.farm (Carl Hall)</managingEditor><webMaster>carl@halls.farm (Carl Hall)</webMaster><lastBuildDate>Mon, 05 Apr 2010 00:00:00 +0000</lastBuildDate><atom:link href="https://thecarlhall.github.io/tags/keytool/index.xml" rel="self" type="application/rss+xml"/><item><title>keytool is Strict</title><link>https://thecarlhall.github.io/post/keychain-is-strict/</link><pubDate>Mon, 05 Apr 2010 00:00:00 +0000</pubDate><author>carl@halls.farm (Carl Hall)</author><guid>https://thecarlhall.github.io/post/keychain-is-strict/</guid><description>&lt;p>Let&amp;rsquo;s say you are setting up a connection to an LDAP server and need to get your security bits in place.  To get the certificate chain from the server, you may do something like this:&lt;/p>
+&lt;blockquote>
+&lt;p>openssl s_client -showcerts -connect dir.example.com:636 &amp;gt; cert_chain.pem&lt;/p>
+&lt;/blockquote>
+&lt;p>Now with the output of that, you want to create or add to a keystore. That command looks like this:&lt;/p>
+&lt;blockquote>
+&lt;p>keytool -import -storetype jks -keystore dir_example.jks -storepass dir-example -file cert_chain.pem -alias ldap-ca -noprompt&lt;/p></description></item></channel></rss>

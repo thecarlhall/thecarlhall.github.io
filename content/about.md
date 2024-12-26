@@ -1,24 +1,12 @@
 ---
 title: "About"
-date: 2017-08-20T21:38:52+08:00
-lastmod: 2017-08-28T21:41:52+08:00
+created: 2009-01-19
+lastmod: 2024-12-24
 menu: "main"
 weight: 50
-
-# you can close something for this content if you open it in config.toml.
-comment: false
-mathjax: false
 ---
 
-Hugo is a static site engine written in Go.
+![Carl!](http://0.gravatar.com/avatar/18aed3fab9203b50799919212be5f600)
 
-
-It makes use of a variety of open source projects including:
-
-* [Cobra](https://github.com/spf13/cobra)
-* [Viper](https://github.com/spf13/viper)
-* [J Walter Weatherman](https://github.com/spf13/jWalterWeatherman)
-* [Cast](https://github.com/spf13/cast)
-
-Learn more and contribute on [GitHub](https://github.com/gohugoio).
+Carl was a transplant to Portland, OR from Georgia, but he came home a f ew years ago.  He was a Software Development Manager at Amazon Web Services, too, but he left that for Solutions Architecture at Databricks.  His free time is still spent chasing his son, sometimes playing guitar, over-optimizing everything, and wondering where the time has gone.
 

@@ -1,0 +1,31 @@
+@import url(https://fonts.googleapis.com/css?family=Comfortaa);
+
+.logo {
+    font-family: Comfortaa !important;
+}
+
+.post-tags {
+    font-size: .9em;
+    font-style: italic;
+}
+
+.post-nav {
+    font-size: .95em;
+}
+
+.site-footer > .social-icon-links {
+    display: none !important;
+}
+
+.carl-header {
+    width: 100%;
+    margin-bottom: -70px;
+    background-color: #778899;
+    background: linear-gradient(90deg, rgba(132,132,124,1) 0%, rgba(132,132,124,1) 33%, rgba(155,168,178,1) 100%);
+}
+
+.carl-header > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
