@@ -79,6 +79,7 @@ defaultContentLanguage = "en"           # Default language to use
   #   (relative to /static/css and /static/js respectively)
   customCSS = ['custom.css']            # if ['custom.css'], load '/static/css/custom.css' file
   customJS = []             # if ['custom.js'], load '/static/js/custom.js' file
+  clicky = '101473642'      # 123456789
 
 #  [params.social]                                         # 社交链接
 #    a-email = "mailto:your@email.com"
@@ -105,6 +106,3 @@ defaultContentLanguage = "en"           # Default language to use
 
 [markup.goldmark.renderer]
   unsafe = true
-
-[services.clicky]
-  ID = '101473642'      # 123456789

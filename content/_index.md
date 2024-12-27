@@ -3,15 +3,15 @@ title: Carlibrated
 layout: custom_home  # use custom home layout
 
 introductionWidget:
-  title: Carlibrated
-  description: A blog about things that Carl has run into.
-  avatar: http://0.gravatar.com/avatar/18aed3fab9203b50799919212be5f600
+  title: A blog about things that Carl has run into.
+  description: Just my ramblings of how I've worked through various whatevers.
+  avatar: images/carl-tux.jpg
   showSocial: false
 
 postWidget:
   - type: recent
     title: Recent Posts
-    count: 3
+    count: 4
   # - type: category
   #   title: Posts from Management
   #   category: management
@@ -37,4 +37,8 @@ projectWidget:
         imgUrl: https://camo.githubusercontent.com/e5edadcf5a70fd53f113fa35bc4ec2f994b4f811166e7685e975978cdeb9e8d8/68747470733a2f2f646f63732e64656c74612e696f2f6c61746573742f5f7374617469632f64656c74612d6c616b652d77686974652e706e67
         description: Delta Lake is an open-source storage framework that enables building a format agnostic Lakehouse architecture with compute engines.
         link: https://delta.io/
+      - title: Unity Catalog
+        imgUrl: https://github.com/unitycatalog/unitycatalog/raw/main/docs/assets/images/uc-logo.png
+        description: Unity Catalog is the industry’s only universal catalog for data and AI.
+        link: https://www.unitycatalog.io/
 ---

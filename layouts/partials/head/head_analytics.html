@@ -8,7 +8,7 @@
 {{ template "_internal/google_analytics.html" . }}
 {{- end -}}
 
-{{ with .Site.Params.Clicky.ID }}
+{{ with .Site.Params.clicky }}
 <script async data-id="{{ . }}" src="//static.getclicky.com/js"></script>
 {{ end }}
 

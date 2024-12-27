@@ -1,5 +1,5 @@
 baseURL = "https://thecarlhall.github.io"
 
-[services.clicky]
+[params.clicky]
   ID = '101473642'      # 123456789
 
