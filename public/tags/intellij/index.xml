@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Intellij on Carlibrated!</title><link>https://thecarlhall.github.io/tags/intellij/</link><description>Recent content in Intellij on Carlibrated!</description><generator>Hugo</generator><language>en</language><managingEditor>carl@halls.farm (Carl Hall)</managingEditor><webMaster>carl@halls.farm (Carl Hall)</webMaster><lastBuildDate>Sat, 10 Apr 2010 00:00:00 +0000</lastBuildDate><atom:link href="https://thecarlhall.github.io/tags/intellij/index.xml" rel="self" type="application/rss+xml"/><item><title>IntelliJ IDEA shortcut in linux</title><link>https://thecarlhall.github.io/post/intellij-idea-shortcut-in-linux/</link><pubDate>Sat, 10 Apr 2010 00:00:00 +0000</pubDate><author>carl@halls.farm (Carl Hall)</author><guid>https://thecarlhall.github.io/post/intellij-idea-shortcut-in-linux/</guid><description>&lt;p>After a lot of digging around, I finally came across &lt;a href="http://www.cs.bgu.ac.il/~gwiener/programming/how-to-make-intellij-idea-8-usable-on-linux/">this blog entry&lt;/a> telling how to make a shortcut to IDEA work in linux. In short, change your shortcut to something like the following:&lt;/p>
-&lt;div class="highlight-container">
-
- &lt;button class="copy-code-btn outline">Copy&lt;/button>
-
- 
- &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>/bin/sh -c &lt;span style="color:#e6db74">&amp;#34;export JDK_HOME=/usr/lib/jvm/java-6-sun &amp;amp;&amp;amp; /opt/IntelliJIdea8/bin/idea.sh&amp;#34;&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
-&lt;/div>
-&lt;p>Voila! Victory is mine!&lt;/p></description></item></channel></rss>
