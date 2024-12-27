@@ -1,4 +1,5 @@
 baseURL = "https://thecarlhall.github.io"
+theme = "github.com/xianmin/hugo-theme-jane"
 
 [params.clicky]
   ID = '101473642'      # 123456789

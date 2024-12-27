@@ -1,7 +1,5 @@
 ---
 title: "About"
-created: 2009-01-19
-lastmod: 2024-12-26
 menu: "main"
 weight: 50
 ---
